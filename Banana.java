@@ -10,6 +10,13 @@ public class Banana extends Actor
         if(getX() <= 0) {
             resetBanana();
         }
+        
+        if(isTouching(Man.class))
+        {
+            //Add a gameover symbol
+        
+            getWorld().removeObject(this); 
+        }
     }
     
     public void resetBanana() {

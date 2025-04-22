@@ -12,5 +12,9 @@ public class MyWorld extends World {
         
         Skull skull = new Skull();
         addObject(skull, 300, 200);
+        
+        Wall wall = new Wall();
+        addObject(wall, 100, 100);
     }
 }
+

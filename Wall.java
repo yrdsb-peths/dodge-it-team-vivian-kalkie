@@ -1,9 +1,9 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-public class Skull extends Actor
+public class Wall extends Actor
 {
-    public void act()
+    public void Actor()
     {
-        // Add your action code here.
+        
     }
 }

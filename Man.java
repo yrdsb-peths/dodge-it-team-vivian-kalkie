@@ -1,5 +1,4 @@
 import greenfoot.*;  
-
 public class Man extends Actor
 {
     boolean atBottom = true;
@@ -19,7 +18,5 @@ public class Man extends Actor
       {
           setLocation(635, 635);
       }
-    }
-}
     }
 }

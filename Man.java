@@ -1,5 +1,4 @@
 import greenfoot.*;  
-
 public class Man extends Actor
 {
     boolean atBottom = true;

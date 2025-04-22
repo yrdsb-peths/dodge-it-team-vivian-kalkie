@@ -12,7 +12,7 @@ public class MyWorld extends World {
         
         
         Wall wall = new Wall();
-        addObject(wall, 100, 100);
+        addObject(wall, 300, 300);
         
         Tree tree = new Tree();
         addObject(tree, 500, 200);

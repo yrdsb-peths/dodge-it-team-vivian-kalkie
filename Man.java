@@ -12,11 +12,11 @@ public class Man extends Actor
       
       if(atBottom)
       {
-          setLocation(620, 620);
+          setLocation(100, 100);
       }
       else 
       {
-          setLocation(635, 635);
+          setLocation(100, 300);
       }
     }
 }

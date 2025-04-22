@@ -12,5 +12,8 @@ public class MyWorld extends World {
         
         Skull skull = new Skull();
         addObject(skull, 300, 200);
+        
+        Tree tree = new Tree();
+        addObject(tree, 500, 200);
     }
 }

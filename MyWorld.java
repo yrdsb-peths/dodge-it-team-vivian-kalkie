@@ -10,8 +10,6 @@ public class MyWorld extends World {
         Banana banana = new Banana();
         addObject(banana, 600, 100);
         
-        Skull skull = new Skull();
-        addObject(skull, 300, 200);
         
         Wall wall = new Wall();
         addObject(wall, 100, 100);
